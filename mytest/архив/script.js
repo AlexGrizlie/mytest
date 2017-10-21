@@ -1,4 +1,5 @@
 var user={
+
  name: 'Alexandr',
     lastName: 'Grigorenko',
     sayHello: function (){
@@ -25,3 +26,6 @@ function test(){
 test1();
 test();
         
+
+
+
