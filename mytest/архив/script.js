@@ -28,16 +28,16 @@ test();
 
 
 function this1() {
-    var model = {model.name: 'lanos'; model.color: 'black'; model.age: '7'};
-    var model = {model.name: 'mazda'; model.color: 'black'; model.age: '11'};
-    var model = {model.name: 'zaz'; model.color: 'black'; model.age: '15'};
-    var model = {model.name: 'kia'; model.color: 'black'; model.age: '7'};
-    var model = {model.name: 'opel'; model.color: 'black'; model.age: '1'};
+    var model = {name: 'lanos', color: 'black',  age: '7'};
+    var model2 = {name: 'mazda', color: 'black', age: '11'};
+    var model3 = {name: 'zaz', color: 'black', age: '15'};
+    var model4 = {name: 'kia', color: 'black', age: '7'};
+    var model5 = {name: 'opel', color: 'black', age: '1'};
 
-  
-       alert( model.name + ': ' + model.color + model.age + 'лет'); 
+   console.log( model.name + ': ' + model.color + model.age + 'лет'); 
+       
     
-}                
+}    this1()                
 
 
 
@@ -51,7 +51,7 @@ function this2() {
   
        alert( person.name + ': ' + person.nation + person.age + 'лет'); 
     
-}
+} this2() 
 
 
 
