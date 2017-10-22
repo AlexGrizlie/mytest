@@ -34,7 +34,11 @@ function this1() {
     var model4 = {name: 'kia', color: 'black', age: '7'};
     var model5 = {name: 'opel', color: 'black', age: '1'};
 
-   console.log( model.name + ': ' + model.color + model.age + 'лет'); 
+   console.log( model.name + ' : ' + model.color + ' ' + model.age + ' лет'); 
+   console.log( model2.name + ' : ' + model2.color + ' ' + model2.age + ' лет');
+   console.log( model3.name + ' : ' + model3.color + ' ' + model3.age + ' лет');
+   console.log( model4.name + ' : ' + model4.color + ' ' + model4.age + ' лет');
+   console.log( model5.name + ' : ' + model5.color + ' ' + model5.age + ' лет');
        
     
 }    this1()                
