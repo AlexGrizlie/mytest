@@ -11,7 +11,22 @@
 		}
 		console.log('Новый массив:' + myOrdering);	
 	}
-}) ([1,6,3,2,5,4]); 
-
-//var a = [1,6,3,2,5,4],
-	//	i, j, k, n = a.length;
+}) ([1,6,3,2,5,4]);
+//найти и вывести строку
+(function(searchString) {
+var i = 0;
+while (i < searchString.length){
+    i++;
+    if (typeof(searchString[i]) === typeof('string'))
+        console.log(searchString[i]);
+}
+}) ([1, 2, 3, 'строка', 5, 6]);
+//найти и вывести число 
+(function(searchNumber) {
+var i = 0;
+while (i < searchNumber.length){
+    i++;
+    if (typeof(searchNumber[i]) === typeof(0))
+        console.log(searchNumber[i]);
+}
+}) ([1, 2, 3, 'строка', 5, 6]);
